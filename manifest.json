@@ -1,0 +1,27 @@
+{
+  "name": "My Reminder",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A reminder that notifies you of your tasks before you forget them.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
