@@ -40,6 +40,8 @@ View Active Reminders: All upcoming reminders are listed in the popup with:
 - Time remaining until notification
 - Quick delete button
 
+  **Important Note: Make Sure to to keep Chrome open to get notifications.**
+
 File Structure
 
 MyReminder/
